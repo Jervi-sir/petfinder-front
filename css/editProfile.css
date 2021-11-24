@@ -1,0 +1,132 @@
+/*---------
+    main
+    ----------*/
+
+main {
+    padding: var(--padding-layout);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    color: #333A5A;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+form .top {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+main form input {
+    border: 1px solid #323958;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+
+form .input {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+form .input input {
+    width: 100%;
+}
+
+form .image {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form .image label {
+    background: #333A5A;
+    border-radius: 5px;
+    color: white;
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 11px;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+}
+
+form .img {
+    width: 50px;
+    height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    background-color: orange;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img img {
+    width: 100%;
+}
+
+form #image {
+    border: none;
+}
+
+main form button {
+    background: #333A5A;
+    border-radius: 0px 0px 15px 15px;
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    width: 100%;
+    border: none;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    color: #FFFFFF;
+}
+
+main a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.reset {
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    color: #333A5A;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.delete {
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    color: #D11414;
+}
